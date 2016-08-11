@@ -4,6 +4,7 @@ title: 关于品牌的一些思考（不一定完整系统）
 cover: vi/cover.jpg
 date:   2015-12-06
 categories: posts
+tags: design thinking, branding, VI
 ---
 
 最近因为一些原因一直在思考关于品牌建设的问题。

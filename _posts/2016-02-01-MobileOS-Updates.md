@@ -4,6 +4,7 @@ title: 2015 总结 — 移动操作系统更新
 date:   2016-02-01
 cover: os/cover.jpg
 categories: posts
+tags: Android, iOS
 ---
 
 

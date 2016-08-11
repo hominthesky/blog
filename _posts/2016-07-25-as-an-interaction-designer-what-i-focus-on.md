@@ -4,6 +4,7 @@ title: 做交互设计时我在关注什么
 cover: interaction/cover.jpg
 date:   2016-07-25
 categories: posts
+tags: design, interaction design, design thinking, UX
 ---
 
 

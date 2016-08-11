@@ -4,6 +4,7 @@ title: 你好，世界
 cover: hello-world/cover.jpg
 date:   1970-01-01 00:00:00
 categories: posts
+tags: greeting
 ---
 
 据说人类有个规矩  
