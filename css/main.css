@@ -29,6 +29,7 @@ a {
   color: #f54955;
   text-decoration: none;
   border: none;
+  transition: 0.8s color;
 }
 
 a img {
@@ -36,8 +37,9 @@ a img {
 }
 
 a:hover {
-  color: #555;
+  color: #ec6972;
   border: none;
+  transition: 0.8s color;
 }
 
 .separator {
