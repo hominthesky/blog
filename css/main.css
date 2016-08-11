@@ -111,6 +111,7 @@ a:hover {
   margin-top: 0.5em;
   display: block;
   font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
 }
 
 .posts {
