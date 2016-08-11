@@ -39,20 +39,20 @@ categories: posts
 
 > - 传感器 Sensor
 
-[](http://developer.android.com/guide/topics/security/permissions.html)
+[相关文档](http://developer.android.com/guide/topics/security/permissions.html)
 
 
 
 ##2）Web Expirence Web 体验优化     
 > 以 Pinterest 为例介绍了 Chrome Custom Tab。即，当你使用 App 要浏览 App 内链接时，传统的方法是使用 App 内建浏览器查看该网页，而浏览 App 内链接时可直接调起 Chrome 来渲染 App 内网页，并可对色彩风格根据你的 App 风格进行定制。同时在登录时拥有保存密码 Saved Password，键盘自动补全 Auto fill，以及所有 Chrome 提供的安全特性 Multi- Process Security。避免了各个 App 内置浏览器中反复登录同一网站的繁复操作。  
 
-[](http://developer.android.com/reference/android/support/customtabs/CustomTabsCallback.html)  
+[相关文档 1](http://developer.android.com/reference/android/support/customtabs/CustomTabsCallback.html)  
 
-[](http://developer.android.com/reference/android/support/customtabs/CustomTabsClient.html)  
+[相关文档 2](http://developer.android.com/reference/android/support/customtabs/CustomTabsClient.html)  
 
-[](http://developer.android.com/reference/android/support/customtabs/CustomTabsIntent.html)  
+[相关文档 3](http://developer.android.com/reference/android/support/customtabs/CustomTabsIntent.html)  
 
-[](http://developer.android.com/reference/android/support/customtabs/CustomTabsIntent.Builder.html)  
+[相关文档 4](http://developer.android.com/reference/android/support/customtabs/CustomTabsIntent.Builder.html)  
 
 
 
@@ -63,7 +63,7 @@ categories: posts
 
 > 此外，这也是一个Google 做 app 内搜索的布局。
 
-[](http://developer.android.com/training/app-links/index.html)
+[相关文档](http://developer.android.com/training/app-links/index.html)
 
 
 
@@ -80,7 +80,7 @@ Dave 介绍的主要使用场景有：解锁 Unlock，Play Store 支付并宣布
 
 > - 现在看来 2015 年各大 Android 旗舰机型 Nexus 5X/ Nexus 6P / Sony Z5 / Galaxy S6 （Edge） 都加了指纹识别的支持
 
-[](http://developer.android.com/reference/android/hardware/fingerprint/FingerprintManager.html)
+[相关文档](http://developer.android.com/reference/android/hardware/fingerprint/FingerprintManager.html)
 
 
 
@@ -91,7 +91,7 @@ Dave 介绍的主要使用场景有：解锁 Unlock，Play Store 支付并宣布
 >同时利用 USB Type C 对充电进行优化，充电速度是原有的 3 - 5 倍。Nexus 6 时期的充电优化是以 Moto 的 Turbo Charger为亮点，充 15 mins 的电量可维持 6 小时续航。而这次对 USB Type C 的支持又为各厂商包括 Google 下一代 Android 新机提供了新的优化点。
 
 
-[](http://developer.android.com/reference/android/os/PowerManager.html)
+[相关文档](http://developer.android.com/reference/android/os/PowerManager.html)
 
 
 
@@ -101,7 +101,7 @@ Dave 介绍的主要使用场景有：解锁 Unlock，Play Store 支付并宣布
 
 >Google Now 的新特性，根据当前用户使用手机或 app 的 context，Now on Tap 会自动识别当前 context 里的信息，并提供相关的信息。如果正在听音乐， Now on Tap 会给出歌手信息或专辑信息，如果正在浏览某个餐馆，Now on Tap 会告诉你餐馆信息。
 
-[](http://developer.android.com/training/articles/assistant.html)
+[相关文档](http://developer.android.com/training/articles/assistant.html)
 
 
 
@@ -142,7 +142,7 @@ Dave 介绍的主要使用场景有：解锁 Unlock，Play Store 支付并宣布
 
 iPhone 6s 和 iPhone 6s Plus 支持。个人还是觉得这种交互在 iPhone、Apple Watch 包括 Mac Track Pad 上都很鸡肋……  
 
-[](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/index.html#//apple_ref/doc/uid/TP40016543)
+[相关文档](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/index.html#//apple_ref/doc/uid/TP40016543)
 
 
 
@@ -150,7 +150,7 @@ iPhone 6s 和 iPhone 6s Plus 支持。个人还是觉得这种交互在 iPhone�
 
 比如一边看文档，一边刷 Twitter ，适用于 iPad 及以上大小屏幕  
 
-[](https://developer.apple.com/library/ios/samplecode/Lister/Introduction/Intro.html#//apple_ref/doc/uid/TP40014701)  
+[详细文档](https://developer.apple.com/library/ios/samplecode/Lister/Introduction/Intro.html#//apple_ref/doc/uid/TP40014701)  
 
 
 
@@ -158,15 +158,15 @@ iPhone 6s 和 iPhone 6s Plus 支持。个人还是觉得这种交互在 iPhone�
 
 可在 spotlight 内搜索 app 内内容  
 
-[](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/index.html#//apple_ref/doc/uid/TP40016308)  
+[相关文档 1](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/index.html#//apple_ref/doc/uid/TP40016308)  
 
-[](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSUserActivity_Class/index.html)  
+[相关文档 2](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSUserActivity_Class/index.html)  
 
-[](https://developer.apple.com/library/ios/documentation/CoreSpotlight/Reference/CoreSpotlight_Framework/index.html)  
+[相关文档 3](https://developer.apple.com/library/ios/documentation/CoreSpotlight/Reference/CoreSpotlight_Framework/index.html)  
 
 **Universal Link**：类似 Android M 的 App Links 无需自定义 url schemes，支持标准 http 和 https 链接。如果用户安装 app，点击链接就会用该 app 打开，如果没安装则用 Safari 打开。
 
-[](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
+[相关文档](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
 
 
@@ -174,15 +174,15 @@ iPhone 6s 和 iPhone 6s Plus 支持。个人还是觉得这种交互在 iPhone�
 
 App Store 下载的 App 可根据用户对应设备只下载该设备需要的切图、资源、二进制文件以达到缩减应用大小的目的。  
 
-[](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AppThinning/AppThinning.html)  
+[相关文档 1](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AppThinning/AppThinning.html)  
 
-[](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/ObjC_classic/index.html)  
+[相关文档 2](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/ObjC_classic/index.html)  
 
 
 
 **5）支持从右往左顺序阅读的语言**   
 
-[](https://developer.apple.com/library/ios/documentation/MacOSX/Conceptual/BPInternational/SupportingRight-To-LeftLanguages/SupportingRight-To-LeftLanguages.html#//apple_ref/doc/uid/10000171i-CH17)
+[相关文档](https://developer.apple.com/library/ios/documentation/MacOSX/Conceptual/BPInternational/SupportingRight-To-LeftLanguages/SupportingRight-To-LeftLanguages.html#//apple_ref/doc/uid/10000171i-CH17)
 
 **6）App Transport Security (ATS)**    
 
@@ -194,7 +194,7 @@ App Store 下载的 App 可根据用户对应设备只下载该设备需要的�
 
 类似 Chrome Custom Tab 允许 App 内调起 Safari 浏览网页且提供 Content Blockers 扩展，屏蔽类似广告或者减慢网页加载速度的不必要内容。   
 
-[](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214)
+[相关文档](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214)
 
 
 
@@ -204,7 +204,7 @@ App Store 下载的 App 可根据用户对应设备只下载该设备需要的�
 
 **9) 新增与 Apple Watch 双向数据传输接口**
 
-[](https://developer.apple.com/library/ios/documentation/WatchConnectivity/Reference/WatchConnectivity_framework/index.html#//apple_ref/doc/uid/TP40015269)
+[相关文档](https://developer.apple.com/library/ios/documentation/WatchConnectivity/Reference/WatchConnectivity_framework/index.html#//apple_ref/doc/uid/TP40015269)
 
 **10）Swift 优化**   
 
