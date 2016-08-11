@@ -257,11 +257,12 @@ hr{
 
 blockquote{
   max-width: 100%;
-  padding: 5px 30px 5px 30px;
+  padding: 10px 30px 10px 30px;
   border-left: 8px solid #eee;
   display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #f2f2f2;
 }
 .sidebar,
 .content {
