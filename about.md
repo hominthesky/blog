@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About ZZ
+title: Hi There!
 categories: posts
 publication: false
 cover: about/cover.jpg
