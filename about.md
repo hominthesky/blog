@@ -8,7 +8,8 @@ date:
 categories: posts
 ---
 
-I'm ZaoZao, a designer and challenger. I make anything smart and beautiful.   
+I'm ZaoZao, a designer and challenger. I make anything smart and beautiful. As always, I love sleeping and gourmet dishes.
+
 You could find me out of there:
 
 - Portfolio: zzao.im
