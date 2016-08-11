@@ -226,9 +226,12 @@ a:hover {
 /*****************************************************************************/
 
 hr{
-  border-bottom: dashed 1px #eee;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  border-bottom: dashed 1px #ccc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
   color: transparent;
 }
 
