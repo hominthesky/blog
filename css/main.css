@@ -257,9 +257,11 @@ hr{
 
 blockquote{
   max-width: 100%;
-  padding: 20px 30px 20px 30px;
-  border-left: 3px solid #eee;
+  padding: 5px 30px 5px 30px;
+  border-left: 8px solid #eee;
   display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .sidebar,
 .content {
