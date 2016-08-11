@@ -19,7 +19,7 @@ categories: posts
 
 
 
-##1) App Permissions 应用权限**
+##1) App Permissions 应用权限
 > 这里的权限主要包括八个项目：
 
 
