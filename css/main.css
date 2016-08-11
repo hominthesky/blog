@@ -229,6 +229,7 @@ hr{
   border-bottom: dashed 1px #eee;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: transparent;
 }
 
 .sidebar,
