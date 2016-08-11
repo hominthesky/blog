@@ -225,6 +225,12 @@ a:hover {
 /*
 /*****************************************************************************/
 
+hr{
+  border-bottom: dashed 1px #eee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .sidebar,
 .content {
   vertical-align: top;
@@ -284,6 +290,7 @@ a:hover {
 #sidebar-button:hover {
   opacity: 0.7;
 }
+
 
 /*****************************************************************************/
 /*
