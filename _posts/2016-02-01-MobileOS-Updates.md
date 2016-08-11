@@ -23,21 +23,21 @@ categories: posts
 > 这里的权限主要包括八个项目：
 
 
-> -地点 Location
+> - 地点 Location
 
-> -相机 Camera
+> - 相机 Camera
 
-> -麦克风 Microphone
+> - 麦克风 Microphone
 
-> -联系人 Contacts
+> - 联系人 Contacts
 
-> -电话 Phone
+> - 电话 Phone
 
-> -短信 SMS
+> - 短信 SMS
 
-> -日历 Calendar
+> - 日历 Calendar
 
-> -传感器 Sensor
+> - 传感器 Sensor
 
 [](http://developer.android.com/guide/topics/security/permissions.html)
 
