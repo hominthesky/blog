@@ -78,7 +78,10 @@ a:hover {
 }
 
 .post p img{
-  margin:auto;
+  margin-top: 15px;
+  margin-bottom: 15px
+  margin-left:auto;
+  margin-right: auto;
   display: block;
   position: relative;
 }
