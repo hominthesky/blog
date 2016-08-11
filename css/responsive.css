@@ -53,7 +53,7 @@
 @media (max-width:640px) {
   .post p{
     font-size: 16px;
-    line-height: 2em;
+    line-height: 1.85em;
   }
   #logo {
     max-width: 75px;
