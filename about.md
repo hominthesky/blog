@@ -16,4 +16,7 @@ You could find me out of there:
 - Instagram: [hominthesky](https://instagram.com/hominthesky)
 - Dribbble: [hominthesky](https://dribbble.com/hominthesky)
 - Google+: [+HungIChao](https://plus.google.com/+HungIChao)
+- Weibo: [@皂皂赵](http://weibo.com/violetlovekaye)
+- Zhihu: [赵皂赵](https://www.zhihu.com/people/zhao-hong-yi-62)
+- Behance: [HungI Chao](https://www.behance.net/hungichao)
 - Linkedin: [HungI Chao](https://linkedin.com/in/hungichao)
