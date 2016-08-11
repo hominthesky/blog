@@ -55,10 +55,12 @@ a:hover {
 
 .posts a {
   color: #444;
+  transition: 0.8s color;
 }
 
 .posts a:hover {
   color: #777;
+  transition: 0.8s color;
 }
 
 .posts-list {
