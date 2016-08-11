@@ -59,12 +59,12 @@ a:hover {
 }
 
 .posts a {
-  color: #444;
+  color: #6f6f6f;
   transition: 0.8s color;
 }
 
 .posts a:hover {
-  color: #777;
+  color: #999;
   transition: 0.8s color;
 }
 
@@ -303,7 +303,7 @@ blockquote p, blockquote li{
 
 .post-title {
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 1.2em;
   /*text-transform: uppercase;*/
 }
 
