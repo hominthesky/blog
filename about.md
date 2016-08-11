@@ -4,6 +4,7 @@ title: Hi There!
 categories: posts
 publication: false
 cover: about/cover.jpg
+date: 1991-11-24
 categories: posts
 ---
 
