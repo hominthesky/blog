@@ -64,7 +64,7 @@ a:hover {
 }
 
 .posts a:hover {
-  color: #999;
+  color: #444;
   transition: 0.8s color;
 }
 
