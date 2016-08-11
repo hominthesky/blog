@@ -3,8 +3,8 @@ layout: post
 title: About ZZ
 categories: posts
 publication: false
-cover: cover.jpg
-date:   2016-08-10 00:00:00
+cover: about/cover.jpg
+date:   
 categories: posts
 ---
 
