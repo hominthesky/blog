@@ -255,6 +255,11 @@ hr{
   color: transparent;
 }
 
+blockquote{
+  max-width: 100%;
+  padding: 20px 30px 20px 30px;
+  border-left: 3px solid #eee;
+}
 .sidebar,
 .content {
   vertical-align: top;
