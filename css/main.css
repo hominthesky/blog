@@ -184,7 +184,8 @@ a:hover {
 .post p {
   font-size: 13px;
   color: #666;
-  margin-bottom: 1.45em;
+  margin-bottom: 2.5em;
+  line-height: 2.4em;
   text-align: justify;
 }
 
