@@ -2,13 +2,12 @@
 layout: post
 title: 2015 总结 — 移动操作系统更新
 date:   2016-02-01
-cover: blank.png
+cover: os/cover.jpg
 categories: posts
 ---
 
 
 
-![](http://zzao.im/blog/images/os/1.jpg)
 2013 年 iOS 改了画风，抛弃从前坚持的拟物风，iOS 7 便成了转折点，其实我算那个时候才开始使用 iOS 的「用户」和「设计」，因为我要给当时手上的 iOS 6 App 做 iOS 7 适配。故事背景是，当时我是个 Andriod 4.4 用户，一个总是跟身边同学安利 Nexus 4 给身边同事安利 Android 4.0+ 的人…公司唯一一个用 Android 的产品设计。 Android 4.0+ 在通知中心设计、快捷操作入口、打破 APP 间隔阂（系统全局分享、APP 间自由跳转调起）、多种手势（滑动、长按）运用等如今看来理所应当的特性都是非常超前和成熟的。
 
 2014 年 Android 的画风从 Holo 转变为 Material Design，Android 5.0 是一个转折点。MD 设计语言并不是为了改变 Android，不止为了改变 Android， 而是为了统一 Web、Web App、甚至是 iOS 也就是多种屏幕和多种设备的体验。iOS 也同理，在 iOS 8 预览版 2014 年 6 月在 WWDC release 之后,10 月 Yosemote 随 iOS 8 正式版发布，整个体验和视觉风格是与 iOS 8 统一起来了，包括改良后的 iOS 和 OS X 通知中心也统一了。
