@@ -171,11 +171,12 @@ a:hover {
 .post a,
 #about a {
   border-bottom: 1px dashed #f54955;
+  transition: 0.6s border-bottom;
 }
 
 .post a:hover {
   border-bottom: none;
-  transition: 1s border-bottom;
+  transition: 0.6s border-bottom;
 }
 
 /* standard */
