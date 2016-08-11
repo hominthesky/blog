@@ -77,6 +77,11 @@ a:hover {
   line-height: 1.75em;
 }
 
+.post p img{
+  margin:auto;
+  display: block;
+  position: relative;
+}
 /*****************************************************************************/
 /*
 /* Site
