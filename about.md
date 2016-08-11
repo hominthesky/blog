@@ -4,7 +4,6 @@ title: Hi There!
 categories: posts
 publication: false
 cover: about/cover.jpg
-date:   
 categories: posts
 ---
 
