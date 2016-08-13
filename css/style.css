@@ -230,11 +230,11 @@ code {
   font-family: "Source Code Pro", "Menlo", "Monaco", "Consolas", "PingFang SC", "PingFang TC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", monospace;
 }
 ::-moz-selection {
-  background-color: rgba(245, 73, 85, 0.1);
+  background-color: rgba(255, 255, 0, 0.25);
   text-shadow: none;
 }
 ::selection {
-  background-color: rgba(245, 73, 85, 0.1);
+  background-color: rgba(255, 255, 0, 0.25);
   text-shadow: none;
 }
 .clearfix::before,
@@ -435,7 +435,7 @@ body {
 
   .title {
     padding-top: 0rem;
-    padding-bottom: 2rem; 
+    padding-bottom: 2rem;
   }
 }
 .title h1 {
