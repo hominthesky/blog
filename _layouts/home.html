@@ -1,0 +1,36 @@
+---
+layout: "default"
+title: Home
+---
+<script language="JavaScript">
+var randnum = Math.random();
+var pnum = 1;
+var rand1 = Math.round(randnum * (pnum-1)) + 1;
+images = new Array;
+images[1] = "h-cover";
+var image = 'images/' + images[rand1];
+image += '.png';
+
+</script>
+
+<div id="cover-container">
+  <!-- <img id="home-cover" src="images/h-cover.png"> -->
+  <script language="JavaScript">
+  document.write('<img id="home-cover" src="' + image + '">')
+  </script>
+
+</div>
+
+<div class="title">
+  <!-- <h1>{{ page.title }}</h1> -->
+  <h1 id="title"><strong>HungI Zzz</strong></h1>
+  <p id="desc">Record something while I'm awake.</p>
+</div>
+</div>
+<article class="article">
+  <ul class="article-list">
+    {% for post in site.posts %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</article>

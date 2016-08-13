@@ -1,4 +1,39 @@
 name: HungI Zzao
 markdown: redcarpet
 highlighter: pygments
-repository: hominthesky/hominthesky.github.io
+url: "http://zzao.im/blog"
+baseurl: "/blog"
+timezone: "Asia/Shanghai"
+permalink: "/post/:title.html"
+kramdown:
+  input: GFM
+gems:
+  # - jekyll-sitemap
+  # - jekyll-mentions
+navs:
+  
+  - name: "About"
+    url: "/about.html"
+  - name: "Portfolio"
+    url: "http://zzao.im"
+
+
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
