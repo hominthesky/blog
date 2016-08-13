@@ -23,10 +23,11 @@
           <nav class="nav">
             {% capture url %}{{ page.url }}.html{% endcapture %}
             <ul>
-              
+
               {% for item in site.navs %}
                 <li><a {% if item.url == url %}class="active"{% endif %} href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a></li>
               {% endfor %}
+                <li><a href="http://zzao.im">Portfolio</a></li>
             </ul>
           </nav>
         </header>

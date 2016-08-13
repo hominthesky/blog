@@ -392,7 +392,6 @@ body {
 .nav a:hover,
 .nav a:active,
 .nav a:focus {
-
   color: #f54955;
   transition: color 200ms;
 }
@@ -410,11 +409,12 @@ body {
 .nav a:active::after,
 .nav a:focus::after {
   border-color: rgba(245, 73, 84, 0.4);
-  color: rgba(245, 73, 84);
+}
+.nav a.active {
+  color: #f54955;
 }
 .nav a.active::after {
   border-color: rgba(245, 73, 84, 0.8);
-  color: rgba(245, 73, 84);
 }
 .title {
   padding-top: 0;

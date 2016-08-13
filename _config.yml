@@ -11,11 +11,10 @@ gems:
   # - jekyll-sitemap
   # - jekyll-mentions
 navs:
-  
+
   - name: "About"
     url: "/about.html"
-  - name: "Portfolio"
-    url: "http://zzao.im"
+
 
 
 
