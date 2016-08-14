@@ -4,13 +4,13 @@ cover: links/cover.jpg
 ---
 
 
-- [IntPtr](https://intptr.im) — It is a hungry front-end hacker.
+[IntPtr](https://intptr.im) — It is a hungry front-end hacker.
 
 
-- [Lilith](http://huiyanwang.me/) — She is a talented Illustrator.
+[Lilith](http://huiyanwang.me/) — She is a talented Illustrator.
 
 
-- [ZTZ](http://ztz.me/) — It is an excited hacker.
+[ZTZ](http://ztz.me/) — It is an excited hacker.
 
 ---
 
