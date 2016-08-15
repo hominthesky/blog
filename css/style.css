@@ -228,6 +228,13 @@ blockquote p, blockquote li{
 pre,
 code {
   font-family: "Source Code Pro", "Menlo", "Monaco", "Consolas", "PingFang SC", "PingFang TC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", monospace;
+  padding: 0.05rem 0.3rem 0.2rem;
+  border-radius: 2px;
+  /*border: 1px solid #e0edf3;*/
+  background-color: #eceff1;
+  margin: 0 3px;
+
+
 }
 ::-moz-selection {
   background-color: rgba(255, 255, 0, 0.25);
@@ -541,7 +548,7 @@ body {
 .content pre {
   position: relative;
   overflow-x: auto;
-  margin: 3rem 0;
+  margin: 3rem 2rem;
   border-radius: 2px;
   line-height: 1.5;
   background-color: #eceff1;

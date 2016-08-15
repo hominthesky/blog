@@ -1,5 +1,5 @@
 name: HungI Zzao
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 url: "http://zzao.im/blog"
 baseurl: "/blog"
