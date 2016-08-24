@@ -42,7 +42,7 @@ div.post, div.content{
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+  text-align: auto;
 }
 
 /*home*/
@@ -218,11 +218,12 @@ blockquote p, blockquote li{
 }
 .article-list a {
   display: block;
-  margin: none;
-  padding: 1.5rem 0rem;
+  margin: 0;
+  padding: 1.2rem 0rem;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
+  line-height: 1.95
 }
 
 pre,
@@ -294,7 +295,9 @@ code {
 
 @media (max-width: 640px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
+    line-height: 1.75px;
+    color: #333;
   }
 }
 body {
@@ -460,7 +463,7 @@ body {
 .article {
   max-width: 640px;
   margin: 0 auto;
-  text-align: justify;
+  text-align: auto;
 }
 .content {
   margin: 4rem 0;
