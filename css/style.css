@@ -92,8 +92,8 @@ div.post, div.content{
 .content{
  font-size: 14px;
  color: #666;
- line-height: 2.4rem;
- font-weight: 300;
+ line-height: 1.95rem;
+ font-weight: normal;
 }
 
 
@@ -118,7 +118,7 @@ strong{
 }
 
 #date{
-  font-weight: 300;
+  font-weight: normal;
   font-family: "Lato",sans-serif;
   text-transform: uppercase;
   color:#9f9f9f;
@@ -223,7 +223,7 @@ blockquote p, blockquote li{
   text-decoration: none;
   color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
-  line-height: 1.95
+  line-height: 1.75
 }
 
 pre,
@@ -439,8 +439,8 @@ body {
   .content,
   .post{
   font-size: 15px;
-  line-height: 1.95;
-  font-weight: 300;
+  line-height: 1.75;
+  font-weight: normal;
   }
 
   .title {
@@ -513,8 +513,8 @@ body {
 .content ul,
 .content ol,
 .content p {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1.65rem;
+  margin-bottom: 1.65rem;
 }
 .content ul,
 .content ol {
