@@ -1,5 +1,5 @@
 ---
-title: 关于「空格符」
+title: Web | 关于「空格符」
 cover: whitespace/cover.jpg
 ---
 

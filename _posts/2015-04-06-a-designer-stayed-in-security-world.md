@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 作为在安全行业呆了一年的设计师
+title: 一些想法 | 作为在安全行业呆了一年的设计师
 categories: posts
 cover: blank.png
 date: 2015-04-06
