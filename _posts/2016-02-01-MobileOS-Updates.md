@@ -20,31 +20,24 @@ tags: Android, iOS
 
 
 ## 1) App Permissions 应用权限
-> 这里的权限主要包括八个项目：
 
+> 这里的权限主要包括八个项目：    
+- 地点 Location    
+- 相机 Camera   
+- 麦克风 Microphone    
+- 联系人 Contacts    
+- 电话 Phone    
+- 短信 SMS   
+- 日历 Calendar   
+- 传感器 Sensor   
 
-> - 地点 Location
-
-> - 相机 Camera
-
-> - 麦克风 Microphone
-
-> - 联系人 Contacts
-
-> - 电话 Phone
-
-> - 短信 SMS
-
-> - 日历 Calendar
-
-> - 传感器 Sensor
 
 [相关文档](http://developer.android.com/guide/topics/security/permissions.html)
 
 
 
 ## 2）Web Expirence Web 体验优化     
-> 以 Pinterest 为例介绍了 Chrome Custom Tab。即，当你使用 App 要浏览 App 内链接时，传统的方法是使用 App 内建浏览器查看该网页，而浏览 App 内链接时可直接调起 Chrome 来渲染 App 内网页，并可对色彩风格根据你的 App 风格进行定制。同时在登录时拥有保存密码 Saved Password，键盘自动补全 Auto fill，以及所有 Chrome 提供的安全特性 Multi- Process Security。避免了各个 App 内置浏览器中反复登录同一网站的繁复操作。  
+> 以 Pinterest 为例介绍了 Chrome Custom Tab。即，当你使用 App 要浏览 App 内链接时，传统的方法是使用 App 内建浏览器查看该网页，而浏览 App 内链接时可直接调起 Chrome 来渲染 App 内网页，并可对色彩风格根据你的 App 风格进行定制。同时在登录时拥有保存密码 Saved Password，键盘自动补全 Auto fill，以及所有 Chrome 提供的安全特性 Multi- Process Security。避免了各个 App 内置浏览器中反复登录同一网站的繁复操作。      
 
 [相关文档 1](http://developer.android.com/reference/android/support/customtabs/CustomTabsCallback.html)  
 
@@ -59,26 +52,25 @@ tags: Android, iOS
 
 
 ## 3）App Links         
-> 演示时以 Twitter url 为例，可以自动识别 url，点击就可自动打开对应的 app 对应内容的页面，其实 app 间的平行无缝切换，Android 一直就比其他平台都做得好。而这次的更新又可以使 App 间以及 App 与 Web 的联动表现得更加流畅了，通过链接实现 app 与 Web 间的无缝切换形成的任务流更加连贯。  
+> 演示时以 Twitter url 为例，可以自动识别 url，点击就可自动打开对应的 app 对应内容的页面，其实 app 间的平行无缝切换，Android 一直就比其他平台都做得好。而这次的更新又可以使 App 间以及 App 与 Web 的联动表现得更加流畅了，通过链接实现 app 与 Web 间的无缝切换形成的任务流更加连贯。           
+此外，这也是一个Google 做 app 内搜索的布局。
 
-> 此外，这也是一个Google 做 app 内搜索的布局。
 
 [相关文档](http://developer.android.com/training/app-links/index.html)
 
 
 
-## 4）Android Pay     
-> 想说，在移动支付的大战中，Android 是不会坐以待毙的。Dave 从 Simplicity/Security/Choice 三方面，介绍了 Android Pay简易的支付操作流程，指纹验证功能，以及支持主流的信用卡银行、与三大运营商以及约 70 万商家达成合作。     
-不过不知道支付的安全性是不是真的如介绍说得那么省心那么可靠呢？？拭目以待。
+## 4）Android Pay
 
-> - 现在看来移动支付安全还是相对可靠的，iOS / Android 操作系统的安全机制类似。那种社工级别或者 app 内的低级错误就不要甩锅给系统了。
+> 想说，在移动支付的大战中，Android 是不会坐以待毙的。Dave 从 Simplicity/Security/Choice 三方面，介绍了 Android Pay简易的支付操作流程，指纹验证功能，以及支持主流的信用卡银行、与三大运营商以及约 70 万商家达成合作。         
+不过不知道支付的安全性是不是真的如介绍说得那么省心那么可靠呢？？拭目以待。    
+- 现在看来移动支付安全还是相对可靠的，iOS / Android 操作系统的安全机制类似。那种社工级别或者 app 内的低级错误就不要甩锅给系统了。
 
 
 ## 5）Fingerprint Support     
 >由 Android Pay 引入这一个全新 API，算是给开发者的福利，借此大家又可发挥想象在自己的 app 里添加更多的 feature 和玩法。     
-Dave 介绍的主要使用场景有：解锁 Unlock，Play Store 支付并宣布指纹识别提供开放的认证 API。
-
-> - 现在看来 2015 年各大 Android 旗舰机型 Nexus 5X/ Nexus 6P / Sony Z5 / Galaxy S6 （Edge） 都加了指纹识别的支持
+Dave 介绍的主要使用场景有：解锁 Unlock，Play Store 支付并宣布指纹识别提供开放的认证 API。    
+- 现在看来 2015 年各大 Android 旗舰机型 Nexus 5X/ Nexus 6P / Sony Z5 / Galaxy S6 （Edge） 都加了指纹识别的支持
 
 [相关文档](http://developer.android.com/reference/android/hardware/fingerprint/FingerprintManager.html)
 
@@ -86,9 +78,8 @@ Dave 介绍的主要使用场景有：解锁 Unlock，Play Store 支付并宣布
 
 ## 6）Power & Charging     
 >其实之前的版本，Android 一路都在优化电池续航，这次特别介绍了 Doze 状态，主要是让闲置的 Android 设备自动进入睡眠状态达到最小化的电量消耗。    
-称在 Nexus 9 上的续航可延长至原来的两倍。
-
->同时利用 USB Type C 对充电进行优化，充电速度是原有的 3 - 5 倍。Nexus 6 时期的充电优化是以 Moto 的 Turbo Charger为亮点，充 15 mins 的电量可维持 6 小时续航。而这次对 USB Type C 的支持又为各厂商包括 Google 下一代 Android 新机提供了新的优化点。
+称在 Nexus 9 上的续航可延长至原来的两倍。    
+同时利用 USB Type C 对充电进行优化，充电速度是原有的 3 - 5 倍。Nexus 6 时期的充电优化是以 Moto 的 Turbo Charger为亮点，充 15 mins 的电量可维持 6 小时续航。而这次对 USB Type C 的支持又为各厂商包括 Google 下一代 Android 新机提供了新的优化点。
 
 
 [相关文档](http://developer.android.com/reference/android/os/PowerManager.html)
@@ -108,13 +99,10 @@ Dave 介绍的主要使用场景有：解锁 Unlock，Play Store 支付并宣布
 ## 8）其他
 
 
->优化文本选择操作体验，增加 floating clipboard toolbar
-
->优化分享功能，可一键将内容分享到任意 App 或联系人
-
->更简易的音量调节操作，可分别对音乐或闹铃音量进行调节
-
->……
+> - 优化文本选择操作体验，增加 floating clipboard toolbar    
+- 优化分享功能，可一键将内容分享到任意 App 或联系人    
+- 更简易的音量调节操作，可分别对音乐或闹铃音量进行调节    
+- ……
 
 ---
 
