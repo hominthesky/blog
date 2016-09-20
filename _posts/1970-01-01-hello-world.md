@@ -3,6 +3,7 @@ layout: post
 title: 你好，世界
 cover: hello-world/cover.jpg
 date:   1970-01-01 00:00:00
+comments: true
 categories: posts
 tags: greeting
 ---

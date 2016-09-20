@@ -1,6 +1,7 @@
 ---
 title: Web | 排版左对齐（left）与两端对齐（justify）的思考
 cover: justify/cover.jpg
+comments: true
 ---
 
 本话题是我在写本博客样式时遇到的。

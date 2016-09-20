@@ -1,6 +1,7 @@
 ---
 title: Web | 关于「空格符」
 cover: whitespace/cover.jpg
+comments: true
 ---
 
 今天突然注意到一个问题 —— 空格符其实不只一种！

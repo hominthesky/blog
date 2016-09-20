@@ -53,6 +53,14 @@ div.post, div.content{
   text-align: auto;
 }
 
+#disqus_thread{
+  max-width: 734px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
+
+}
 /*home*/
 .article-list li{
   list-style: none;
