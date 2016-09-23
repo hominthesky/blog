@@ -10,9 +10,26 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/4.2.0/normalize.min.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+    <script src="{{ site.baseurl }}/js/jquery-1.12.3.min.js"></script>
+      <script>
+       $(document).ready(function(){
+       $("#loader").fadeOut(1000);
+         });
+      </script>
+
   </head>
   {% include analytics.html %}
   <body>
+    <div id="loader">
+      <div id="loading-center">
+        <div id="loading-center-absolute">
+          <div class="object" id="object_one"></div>
+          <div class="object" id="object_two"></div>
+          <div class="object" id="object_three"></div>
+        </div>
+      </div>
+    </div>
+
     <div class="page">
       <div class="banner">
         <header class="header">
