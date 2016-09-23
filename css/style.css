@@ -167,20 +167,20 @@ div.post, div.content{
   transition: 0.6s color;
 }
 
-#home-cover{
+#home-cover {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
 }
 
-#cover-container{
+#cover-container {
   max-width: 640px;
   margin-right: auto;
   margin-left: auto;
   margin-top: -6rem;
 }
 
-#desc{
+#desc {
   line-height: 1.5;
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
@@ -192,7 +192,7 @@ div.post, div.content{
 
 /*post*/
 .post,
-.content{
+.content {
  font-size: 14px;
  color: #444;
  line-height: 1.95rem;
