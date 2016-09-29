@@ -21,16 +21,14 @@
   {% include analytics.html %}
   <body>
     <div id="loader">
-      <div id="loading-center">
-        <div id="loading-center-absolute">
-          <div class="object" id="object_one"></div>
-          <div class="object" id="object_two"></div>
-          <div class="object" id="object_three"></div>
-        </div>
+        <div class="loader-center">
+          <div class="loader-center-absolute">
+            <span class="dot"></span>
+          </div>
       </div>
     </div>
 
-    <div class="page">
+    <div class="page appearing" >
       <div class="banner">
         <header class="header">
           <div class="logo">
@@ -45,7 +43,7 @@
               {% for item in site.navs %}
                 <li><a {% if item.url == url %}class="active"{% endif %} href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a></li>
               {% endfor %}
-                <li><a href="http://zzao.im">Portfolio</a></li>
+                <li><a href="http://zzao.im">Zzao</a></li>
             </ul>
           </nav>
         </header>
