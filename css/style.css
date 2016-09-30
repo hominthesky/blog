@@ -339,7 +339,7 @@ blockquote p, blockquote li{
   margin: 0;
   padding: 1.2rem 0rem;
   text-decoration: none;
-  color: #666;
+  color: #555;
   cursor: pointer;
   line-height: 1.75
 }
