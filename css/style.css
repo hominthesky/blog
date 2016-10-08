@@ -204,6 +204,23 @@ h1#title{
 }
 /*home*/
 
+/*recent posts*/
+
+.post-recent{
+	padding: 20px 0px;
+	border-bottom: 1px dotted #e7e7e7;
+	border-top: 1px dotted #e7e7e7;
+	margin-bottom: 50px;
+}
+
+.post-recent p a {
+	border: none;
+}
+
+
+/*recent posts*/
+
+
 /*post*/
 .post,
 .content {
@@ -351,7 +368,7 @@ code {
   border-radius: 2px;
   /*border: 1px solid #e0edf3;*/
   background-color: #eceff1;
-  margin: 0 3px;
+  margin: 0 14px;
 
 
 }
@@ -740,7 +757,7 @@ h1.banner{
 .content pre {
   position: relative;
   overflow-x: auto;
-  margin: 3rem 2rem;
+  margin: 3rem 0rem;
   border-radius: 2px;
   line-height: 1.5;
   background-color: #eceff1;

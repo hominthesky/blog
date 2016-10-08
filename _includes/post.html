@@ -19,4 +19,13 @@
       <span id="social">Find me on <a href="https://twitter.com/hominthesky" target="_blank">Twitter</a> !</span>
     </p>
   </div>
+  <div class="post-recent">
+    {% if page.previous %}
+    <p>上一篇 <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }}</a></p>
+    {% endif %}
+    {% if page.next %}
+    <p>下一篇 <a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a></p>
+    {% endif %}
+  </div>
+
 </div>
