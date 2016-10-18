@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一些想法 | 做交互设计时我在关注什么
+title: Retrospect | 做交互设计时我在关注什么
 cover: interaction/cover.jpg
 date:   2016-07-25
 categories: posts
