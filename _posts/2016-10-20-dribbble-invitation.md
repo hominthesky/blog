@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sharing | Dribbble Invitation to offer 邀请码一枚
+title: Sharing | [End] Dribbble Invitation to offer 邀请码一枚
 cover: dribbble.jpeg
 comments: true
 categories: posts
@@ -17,3 +17,9 @@ Feel free to leave your comment below or contact me on Twitter [@hominthesky](ht
 所以如果你感兴趣且是一位不错的设计师，请在本文评论里留下你的作品链接，或发送你的作品到我的邮箱 [hominthesky@gmail.com](maito:hominthesky@gmail.com) 即可。
 
 如果有任何问题可直接在评论里留言，或者在 Twitter 联系我。
+
+-----
+
+Now this invitation has been given to a Designer whose playground on Dribbble is https://dribbble.com/CGN . And I'll keep inviting more designers into Dribbble next time I'm scored the invitations.
+
+Thank you all!
