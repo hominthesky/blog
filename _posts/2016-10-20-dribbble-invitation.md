@@ -20,6 +20,6 @@ Feel free to leave your comment below or contact me on Twitter [@hominthesky](ht
 
 -----
 
-Now this invitation has been given to a Designer whose playground on Dribbble is https://dribbble.com/CGN . And I'll keep inviting more designers into Dribbble next time I'm scored the invitations.
+Now this invitation has been given to a Designer whose playground on Dribbble is [https://dribbble.com/CGN](https://dribbble.com/CGN) . And I'll keep inviting more designers into Dribbble next time I'm scored the invitations.
 
 Thank you all!
