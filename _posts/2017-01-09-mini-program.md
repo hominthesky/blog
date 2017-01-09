@@ -4,7 +4,7 @@ title: Product | 微信小程序说一些我的观点
 cover: mini/cover.jpg
 comments: true
 categories: posts
-tags: UX, Principle
+tags: Mini Program, WeChat
 ---
 
 
