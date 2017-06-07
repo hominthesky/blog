@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UX | Principle 做滚动视图需要注意的
-cover: blank.jpg
+cover: blank.png
 comments: true
 categories: posts
 tags: UX, Principle
