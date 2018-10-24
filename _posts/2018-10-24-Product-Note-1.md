@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 产品笔记1 | 关于社区的一些想法
+title: 产品笔记1 | 关于社区
 cover: blank.png
 comments: true
 categories: posts
