@@ -45,6 +45,11 @@
     max-width: 640px;
   }
 
+  .footer {
+    height: auto !important;
+    top: 40px !important;
+  }
+
   .footer-container {
     margin-left: 0px;
     margin-right: 0px;
