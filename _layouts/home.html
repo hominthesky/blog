@@ -2,39 +2,57 @@
 layout: "default"
 title: Home
 ---
+
 <script language="JavaScript">
-var randnum = Math.random();
-var pnum = 2;
-var rand1 = Math.round(randnum * (pnum-1)) + 1;
-images = new Array;
-images[1] = "h-cover2";
-images[2] = "h-cover"
-var image = 'images/' + images[rand1];
-image += '.png';
+    var randnum = Math.random();
+    var pnum = 5;
+    var rand1 = Math.round(randnum * (pnum-1)) + 1;
+    images = new Array;
+    images[1] = "icon-1";
+    images[2] = "icon-2";
+    images[3] = "icon-3";
+    images[4] = "icon-4";
+    images[5] = "icon-5";
+    var image = 'images/random/' + images[rand1];
+    image += '.png';
+    </script>
 
-</script>
 {% include analytics.html %}
-<div id="cover-container">
-  <!-- <img id="home-cover" src="images/h-cover.png"> -->
-  <script language="JavaScript">
-  document.write('<img id="home-cover" src="' + image + '">')
-  </script>
 
+
+<section class="hero">
+       
+    <div id="random-icon">
+        <script language="JavaScript">
+            document.write('<img id="emoji" width="120" src="' + image + '">')
+            </script>
+      </div>
+<div id="self-intro">
+  <img src="images/blog.svg " max-width=420  class="svg-title" style="margin-top:40px; margin-bottom:8px;"/>
+  <p class="indent">Record something while I'm awake.</p>
+</div>
+  <div class="index">
+      <div class="index-container">
+        {% for post in site.posts %}
+          <div class="index-item">
+              <h2 class="index-title uppercase "><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+              <div class="index-desc uppercase">{{ post.excerpt | strip_html | strip }} <span><a href="{{ site.baseurl }}{{ post.url }}">read more</a></span>
+              </div>
+            
+        {% endfor %}
+              </div>
+            
+    
+</div>
 </div>
 
-<div class="title">
-  <!-- <h1>{{ page.title }}</h1> -->
-  <h1 id="title"><strong>HungI Zzz</strong></h1>
-  <p id="desc">Record something while I'm awake.</p>
-</div>
-</div>
-<article class="article">
-  <ul class="article-list">
-    {% for post in site.posts %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</article>
+</section>
+
+
+
+
+
+
 
 <!-- back to top -->
 <div id="top"><a href="#">back to top</a></div>

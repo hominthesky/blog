@@ -2,60 +2,119 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
-    <link rel="alternate" type="application/atom+xml" href="{{ site.baseurl }}/atom.xml" />
-    <title>{% if page.title %}{{ page.title }} - {% endif %}HungI Zzz's Blog</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Slab|Lato:300,400,500,700|Raleway:300,400,700" rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/4.2.0/normalize.min.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=0"
+    />
+    <link
+      rel="alternate"
+      type="application/atom+xml"
+      href="{{ site.baseurl }}/atom.xml"
+    />
+    <title>
+      {% if page.title %}{{ page.title }} - {% endif %}HungI Zzz's Blog
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto Slab|Lato:300,400,500,700|Raleway:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.bootcss.com/normalize/4.2.0/normalize.min.css"
+    />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/smallscreen.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/font-styles.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/article.css" />
     <script src="{{ site.baseurl }}/js/jquery-1.12.3.min.js"></script>
+    <script src="{{ site.baseurl }}/js/toggle.js"></script>
     <script src="{{ site.baseurl }}/js/backtotop.js"></script>
-      <script>
-       $(document).ready(function(){
-       $("#loader").fadeOut(1000);
-         });
-      </script>
-
+    <script>
+      $(document).ready(function() {
+        this.fadeOut(1000);
+      });
+    </script>
   </head>
   {% include analytics.html %}
   <body>
-    <div id="loader">
-        <div class="loader-center">
-          <div class="loader-center-absolute">
-            <span class="dot"></span>
+    <div class="page appearing">
+      <div class="navigation">
+        <div class="navi-container">
+          <div id="logo">
+            <a href="http://zzao.im" title="Zzao is a Designer😜"
+              ><img src="{{ site.baseurl }}/logo.png" width="32"
+            /></a>
           </div>
+          <div id="menu">
+            <a href="http://zzao.im/index.html" title="">Home</a>
+            <a href="http://zzao.im/about.html" title="">About</a>
+            <a href="http://zzao.im/work.html" title="See All Works👩🏻‍💻">Work</a>
+            <a href="{{ site.baseurl }}/" class="active">Blog</a>
+            <a
+              href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#111;&#109;&#105;&#110;&#116;&#104;&#101;&#115;&#107;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;&#10;"
+              title=""
+              >Contact</a
+            >
+          </div>
+          <div id="menu-mini">
+            <a href="http://zzao.im/about.html" title="">About</a>
+            <a href="http://zzao.im/work.html" title="See All Works👩🏻‍💻">Work</a>
+            <a href="{{ site.baseurl }}/" class="active">Blog</a>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="page appearing" >
-      <div class="banner">
-        <header class="header">
-          <div class="logo">
-            <a href="{{ site.baseurl }}/">
-              <img src="{{ site.baseurl }}/logo.png" width="44" alt="HungI Zzz" />
-            </a>
-          </div>
-          <nav class="nav">
-            {% capture url %}{{ page.url }}.html{% endcapture %}
-            <ul>
-
-              {% for item in site.navs %}
-                <li><a {% if item.url == url %}class="active"{% endif %} href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a></li>
-              {% endfor %}
-                <li><a href="http://zzao.im">Zzao</a></li>
-            </ul>
-          </nav>
-        </header>
-        <!-- <div class="title">
-          <h1>{{ page.title }}</h1>
-        </div> -->
 
       {{ content }}
-      <footer class="footer">
-        <p>Copyright &copy; 2015 – 2018 HungI.</p>
-      </footer>
+      <section class="footer">
+        <div class="footer-container">
+          <p id="copyright">
+            © 2015 - 2018
+            <a href="#" title="Learn more about me😜">HungI Zz.</a>
+          </p>
+          <div id="social-accounts">
+            <a
+              href="https://twitter.com/hominthesky"
+              id="twitter"
+              title="See My Tweets🐦"
+              target="_blank"
+              ><img
+                src="{{ site.baseurl }}/images/social/social_twitter.svg"
+                width="22"
+                alt="twitter"
+            /></a>
+            <a
+              href="https://www.instagram.com/hominthesky/"
+              id="instagram"
+              title="Go to My Instagram📸"
+              target="_blank"
+              ><img
+                src="{{ site.baseurl }}/images/social/social_Instagram.svg"
+                width="20"
+                alt="instagram"
+            /></a>
+            <a
+              href="https://dribbble.com/hominthesky"
+              id="dribbble"
+              title="See My Playground🏀"
+              target="_blank"
+              ><img
+                src="{{ site.baseurl }}/images/social/social_dribbble.svg"
+                width="20"
+                alt="dribbble"
+            /></a>
+          </div>
+        </div>
+      </section>
     </div>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
   </body>
