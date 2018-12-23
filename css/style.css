@@ -483,9 +483,9 @@ div#top a {
   position: relative;
   margin: auto;
   max-width: 1140px;
-  top: 280px;
+  top: 60px;
   bottom: 0px;
-  height: 240px;
+  height: auto;
   overflow: hidden;
   clear: both;
 }
