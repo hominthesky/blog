@@ -585,6 +585,7 @@ body {
   font-size: 1.5rem;
   color: #90a4ae;
 }
+
 @media (max-width: 768px) {
   .content pre::before,
   .content h2::before,
