@@ -20,7 +20,6 @@ body {
   background-color: #fbfbfb;
   margin: 0;
   padding: 0;
-  overflow-y: scroll;
 }
 
 body,
@@ -291,6 +290,9 @@ div.index-item {
 }
 
 .index-title a:hover {
+  color: #0c1dd0;
+}
+.index-title a:focus {
   color: #0c1dd0;
 }
 
