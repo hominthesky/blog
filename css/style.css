@@ -499,6 +499,7 @@ div#top a {
   align-content: center;
   align-items: center;
   height: 100%;
+  margin: 100px auto 160px;
 }
 
 p#copyright {

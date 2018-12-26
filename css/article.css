@@ -323,27 +323,6 @@ code {
   letter-spacing: 0.02rem;
   color: #9f9f9f;
 }
-/* Footer */
-.footer {
-  display: block;
-  position: relative;
-  margin: auto;
-  max-width: 1140px;
-  top: 60px;
-  bottom: 0px;
-  height: auto;
-  overflow: hidden;
-  clear: both;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  height: 100%;
-  margin-bottom: 100px;
-}
 
 p#copyright {
   font-size: 14px;
