@@ -82,6 +82,7 @@ a:hover {
   display: inline-block;
   align-content: center;
   margin-left: 32px;
+  vertical-align: middle;
 }
 
 #menu,

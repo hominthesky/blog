@@ -342,6 +342,7 @@ code {
   align-content: center;
   align-items: center;
   height: 100%;
+  margin-bottom: 100px;
 }
 
 p#copyright {
@@ -679,6 +680,7 @@ body {
     max-width: 640px;
     margin: 4rem auto;
   }
+
   .footer {
     max-width: 640px;
     margin: 4rem auto;
@@ -725,5 +727,9 @@ body {
   p {
     line-height: 1.8rem;
     font-size: 16px;
+  }
+
+  #disqus_thread {
+    padding: 0 1rem;
   }
 }
