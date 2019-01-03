@@ -70,6 +70,7 @@ a:hover {
 }
 
 .navi-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -131,6 +132,17 @@ a:hover {
 #menu-mini a.active,
 #menu a.active {
   color: rgba(0, 0, 0, 0.87);
+}
+
+#menu a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.87);
 }
 
 #menu-mini a.active:hover,
