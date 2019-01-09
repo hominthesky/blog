@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于字体-01
+title: 关于字体 01
 cover: blank.png
 comments: true
 categories: posts
