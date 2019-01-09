@@ -41,11 +41,14 @@ title: Blog
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </h2>
         <div class="index-desc">
-          {{ post.excerpt | strip_html | strip }}
-          {{ post.date | date: "%B %e, %Y" }}
+          {{ post.date | date: "%B %e, %Y" }} <br />
+          {{ post.excerpt | strip_html | strip }} <br />
           <span
-            ><a href="{{ site.baseurl }}{{ post.url }}" class="uppercase"
-              >read more</a
+            ><a
+              href="{{ site.baseurl }}{{ post.url }}"
+              class="uppercase"
+              title="See More"
+              >Read More</a
             ></span
           >
         </div>

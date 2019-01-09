@@ -38,7 +38,7 @@ a:hover {
 
 a:active,
 a:focus {
-  color: #fa6b53;
+  color: #081285;
 }
 
 #home {
@@ -543,6 +543,12 @@ body {
 .post a:focus {
   border-bottom: 1px dashed rgba(12, 29, 208, 0);
   /*transition: 0.6s border-bottom;*/
+  text-decoration: none;
+}
+.post-recent a:hover,
+.post-recent a:active,
+.post-recent a:focus {
+  border-bottom: none;
   text-decoration: none;
 }
 
