@@ -22,18 +22,18 @@
     </p>
   </div>
   <div class="post-recent">
-    {% if page.previous %}
+    {% if page.next %}
     <p>
-      前一篇
-      <a href="{{ page.previous.url | prepend: site.baseurl }}">{{
-        page.previous.title
-      }}</a>
-    </p>
-    {% endif %} {% if page.next %}
-    <p>
-      后一篇
+      下一篇
       <a href="{{ page.next.url | prepend: site.baseurl }}">{{
         page.next.title
+      }}</a>
+    </p>
+    {% endif %} {% if page.previous %}
+    <p>
+      上一篇
+      <a href="{{ page.previous.url | prepend: site.baseurl }}">{{
+        page.previous.title
       }}</a>
     </p>
     {% endif %}
