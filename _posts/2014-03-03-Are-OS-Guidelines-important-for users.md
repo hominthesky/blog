@@ -42,6 +42,6 @@ Android 和 iOS 规范如果都要各自遵照来进行设计，两套设计工�
 
 所以，我认为一个负责任、用心的团队应该遵守平台规范，如果可以，再加以自身的风格和理念，就是锦上添花了。
 
-问答原文发布于：
+_问答原文发布于：_
 
-https://www.zhihu.com/question/22895304/answer/23051975
+[https://www.zhihu.com/question/22895304/answer/23051975](https://www.zhihu.com/question/22895304/answer/23051975)
