@@ -81,6 +81,8 @@ a:hover {
 #logo img {
   display: inline-block;
   align-content: center;
+  box-sizing: content-box;
+  padding: 20px;
   margin-left: 32px;
   vertical-align: middle;
 }
@@ -313,7 +315,6 @@ div.index-item {
   font-size: 0.9rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.38);
-  margin: auto 4px;
 }
 
 .uppercase {
