@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sharing | [Overdue] Dribbble Invitation to offer 邀请码一枚
-cover: dribbble.jpeg
+cover: blank.png
 comments: true
 categories: posts
 tags: Dribbble, Invitation, design, UI, Designer
@@ -9,7 +9,7 @@ tags: Dribbble, Invitation, design, UI, Designer
 
 Yesterday I've been given 2 invitations of Dribbble to offer.  I've given one to my friend,  and would like to offer the left one to a designer who has some brilliant designs.
 
-So if you are a talented designer, drop a link to your folio in the comments or send your amazing works to my email:  [hominthesky@gmail.com](maito:hominthesky@gmail.com) . I'll select one to send invitation next week.
+So if you are a talented designer, drop a link to your folio in the comments or send your amazing works to my email: [hominthesky@gmail.com](maito:hominthesky@gmail.com) . I'll select one to send invitation next week.
 
 Feel free to leave your comment below or contact me on Twitter [@hominthesky](https://twitter.com/hominthesky), if you meet any problem.
 
@@ -18,7 +18,7 @@ Feel free to leave your comment below or contact me on Twitter [@hominthesky](ht
 
 如果有任何问题可直接在评论里留言，或者在 Twitter 联系我。
 
------
+---
 
 Now this invitation has been given to a Designer whose playground on Dribbble is [https://dribbble.com/CGN](https://dribbble.com/CGN) . And I'll keep inviting more designers into Dribbble next time I'm scored the invitations.
 
