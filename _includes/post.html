@@ -24,14 +24,14 @@
   <div class="post-recent">
     {% if page.next %}
     <p>
-      下一篇
+      更旧
       <a href="{{ page.next.url | prepend: site.baseurl }}">{{
         page.next.title
       }}</a>
     </p>
     {% endif %} {% if page.previous %}
     <p>
-      上一篇
+      更新
       <a href="{{ page.previous.url | prepend: site.baseurl }}">{{
         page.previous.title
       }}</a>
