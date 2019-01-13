@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Sharing | [Overdue] Dribbble Invitation to offer 邀请码一枚
-cover: blank.png
 comments: true
 categories: posts
 tags: Dribbble, Invitation, design, UI, Designer
