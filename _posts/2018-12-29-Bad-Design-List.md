@@ -3,7 +3,7 @@ layout: post
 title: UX | 坏体验汇总记录（长期更新）
 comments: true
 categories: posts
-tags: product
+tags: product, ux, design
 ---
 
 **为什么新开这么一个记录？**
