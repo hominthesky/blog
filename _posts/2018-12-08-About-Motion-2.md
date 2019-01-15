@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于动效 02
+title: 关于动效 02 - 拆解输出
 comments: true
 categories: posts
 tags: product, ux, design, UI

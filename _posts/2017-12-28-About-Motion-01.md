@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于动效 01
+title: 关于动效 01 - 理解动效
 comments: true
 categories: posts
 tags: product, ux, design, UI
